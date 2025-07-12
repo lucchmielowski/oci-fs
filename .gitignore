@@ -1,0 +1,50 @@
+# Binaires compilés
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Fichiers de test
+*.test
+
+# Fichiers de couverture de test
+*.out
+
+# Fichiers de dépendances
+vendor/
+
+# Fichiers de configuration IDE GoLand
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Fichiers système macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fichiers temporaires
+*~
+._*
+
+# Fichiers de log
+*.log
+
+# Répertoire de build
+bin/
+dist/
+
+# Fichiers de configuration locaux
+.env
+.env.local
+
+# Cache Go
+go.work
+go.sum
+
+# Autres
+.vscode/
+*.swp
+*.swo
